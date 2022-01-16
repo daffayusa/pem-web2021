@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    font-family: "Nova Square";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.wallpaper{
+    width: 100% ;
+    height: 329px;
+    left: 0px;
+    top: 0px;
+
+}
+body{
+    
+}
+.bg-nav{
+display: flex;
+width:  100%;
+height: 114px;
+left: 0px;
+top: 329px;
+justify-content: space-between;
+align-items: center;
+
+background: #DD1919;
+}
+.logo{
+    display: flex;
+}
+a.nav-home, a.nav-about, a.nav-blog, a.nav-login, a.nav-topup{
+width: 100%;
+height: 23px;
+left: 1082px;
+top: 376px;
+text-decoration: none;
+
+font-family: Nova Square;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+.nav-links a:hover{
+    background: black;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 329px;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #DD1919;
+}
+.jam-digital{
+    display: flex;
+    justify-content: space-between;
+}
+.jam-digital p{
+    width: 30px;
+    color: black;
+}
+.copyright{
+    display: flex;
+}
+    
+

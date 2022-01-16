@@ -1,0 +1,26 @@
+.content label{
+    color: white;
+}
+center h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 36px;
+}
+.square{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #F3FF69;
+    border-radius: 50px;
+}
+.content input{
+    width: 200px;
+    height: 30px;
+}
+.submit{
+    background-color: red;
+    opacity: 50;
+    border: none;
+    width: 75px;
+    height:25px;
+    cursor: pointer;
+}
