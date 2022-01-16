@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Space - Top Up</title>
+    <link rel="stylesheet" href="assets/css/style_for_login.css">
+    <link rel="stylesheet" href="assets/css/style_for-all.css">
+    <script src="javascript_for_all.js"></script>   
+    <script>
+        function Login(){
+            var done=0;
+            var username=document.login.username.value;
+            username=username.toLowerCase();
+            var password=document.login.password.value;
+            password=password.toLowerCase();
+            if(username=="daffa" & password=="daffa"){
+                alert("Anda berhasil login!");
+            }
+            else if(done==0){
+                alert("Invalid Login!");
+            }
+        }
+    </script>
+</head>
+<body background="assets/img/body_background.jpg">
+    <header>
+        <img class="wallpaper" src="assets/img/wp-header.svg" alt="">
+    </header>
+    <nav class="bg-nav">
+    <div class="logo">
+        &nbsp;&nbsp;&nbsp;
+        <img src="assets/img/logo.svg" alt="">
+        <img src="assets/img/logo_text.svg" alt="">
+    </div>
+    <div class="nav-links">
+        <a href="index.html" class="nav-home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+        <a href="about.html" class="nav-about">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
+        <a href="blog.html" class="nav-blog">&nbsp;&nbsp;Blog&nbsp;&nbsp;</a>
+        <a href="topup.html" class="nav-topup">&nbsp;&nbsp;Top Up&nbsp;&nbsp;</a>
+        <a href="#" class="nav-login">&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;</a>
+    </div>
+    </nav>
+    <article>
+        <center>
+            <br>
+            <h1>Login</h1>
+            <br>
+            <form name="Login">
+                <div class="square">
+                    <br><br><br>
+                    <div class="content">
+                        <label for="username">Username :</label>
+                        <br>
+                        <input required type="text" name="username" >
+                    </div>
+                    <br>
+                    <div class="content">
+                        <label for="password">Password :</label>
+                        <br>
+                        <input required type="password" name="password" >
+                    </div>
+                    <br>
+                    <div>
+                        <input class="submit" type="submit" value="Login" onclick="Login()">
+                    </div>
+                </div>
+            </form>
+            <br>
+                
+        </center>
+    </article>
+    <footer>
+        <div class="copyright">
+            <h5 style="text-align: center;">Copyright &copy;2022 | Daffa Yusa Aditama</h5>
+        </div>
+        <div class="jam-digital">
+            <div class="kotak"> 
+                <p id="jam"></p> 
+            </div> 
+            <div>
+                <p>:</p>
+            </div>
+            <div class="kotak">     
+                <p id="menit"></p> 
+            </div> 
+            <div>
+                <p>:</p>
+            </div>
+            <div class="kotak"> 
+                <p id="detik"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
